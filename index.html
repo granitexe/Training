@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Training Anko</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<!-- Navigation Bar -->
+    <section id="nav-bar" class="container">
+      <header class="nav-bar">
+        <a href="#landing"><div class="brand"><img src="./logo.png"></div></a>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#services">services</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#hire">contact</a></li>
+          </ul>
+        </div>
+      </header>
+    </section>
+<!-- END Navigation Bar -->
+
+<!-- Landing Section -->
+    <section id="landing" class="landing container">
+      <div class="landing-info">
+        <h1 class="landing-info-heading">Du möchtest <br>mich als Coach?</h1>
+        <p class="landing-info-subheading">Klicke hier um dich anzumelden.</p>
+        <a href="#contact" type="button" class="landing-info-button">Anmeldung</a>
+      </div>
+      <div class="landing-img">
+        <img src="./grau.png" alt="">
+      </div>
+    </section>
+<!-- END Landing Section -->
+
+<!-- Explain Section -->
+<section id="explain" class="explain container">
+  
+
+  <div class="explain-info">
+    <h1 class="explain-info-heading">Was dich erwartet</h1>
+    <p class="explain-info-text">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium.  </p>
+    
+    <br>
+
+    <ul>
+      <li>viel Spaß</li>
+      <li>coole Dinge</li>
+      <li>Kekse</li>
+    </ul>
+    
+    <br>
+    <br>
+
+    <p class="explain-info-text-mini">Für mehr Infos über mich klicke den Button </p>
+    <a href="#" type="button" class="explain-button">Infos</a>
+
+  </div>
+
+  <div class="explain-video">
+    <video width="320" height="240" controls>
+      <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video> 
+  </div>
+</section>
+<!-- END Explain Section -->
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <div class="contact-box">
+    <h1 class="contact-header">Kontakt</h1>
+    <form action="https://formspree.io/f/xknppqbd" method="POST" id="my-form">
+      <div class="form-group">
+        <input type="text" id="firstName" name="firstName" placeholder="Vorname">
+      </div>
+
+      <div class="form-group">
+        <input type="text" id="lastName" name="lastName" placeholder="Nachname">
+      </div>
+      
+      <div class="form-group">
+        <input type="text" id="email" name="email" placeholder="Email">
+      </div>
+
+      <div class="form-group">
+        <textarea id="message" name="message" cols="30" rows="10" placeholder="Nachricht an Markus"></textarea>
+      </div>
+
+      <button class="contact-button" type="submit">Senden</button>
+
+    </form>
+    
+  </div>
+  <div id="status" class=""></div>
+</section>
+<!-- Contact Section -->
+
+<!-- Footer Section -->
+<footer id="footer" class="footer container">
+  <div class="footer-contact">
+    <p class="footer-contact-info">Email: anko@anko.anko</p>
+    <p class="footer-contact-info">Mobile: 666 666</p>
+    <div class="footer-social-follow">
+      <h1 class="footer-social-follow-heading">Follow Me</h1>
+      <div class="footer-social-icon">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/ankomarkus/"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- END Footer Section -->
+
+    <script src="./app.js"></script>
+  </body>
+</html>
