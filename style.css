@@ -556,6 +556,61 @@ body, html {
 }
 /* END Image Section*/
 
+/* Service Section*/
+.service-container {
+	display: flex;
+  background-color: #111;
+	flex-direction: column;
+}
+
+.service {
+  min-height: 40vh;
+  width: 100%;
+  justify-content: center;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	flex-direction: column;
+}
+
+.service-info-heading {
+  font-size: 5rem;
+  font-weight: 300;
+	color: lightgrey;
+	transition: 1s ease all;
+}
+
+.service-text {
+	padding: 0 30px 0 30px;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  color: lightgrey;
+}
+
+.service-button {
+	margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 1.5rem 2.5rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #fffffa;
+  text-decoration: none;
+  letter-spacing: .6rem;
+	background-color: #111;
+  transition: 0.3s ease all;
+  overflow: hidden;
+	border: 2px solid grey;
+}
+
+.service-button:hover {
+  color: black;
+  background: whitesmoke;
+	box-shadow: 0 0 10px whitesmoke, 0 0 5px whitesmoke, 0 0 10px whitesmoke;
+  border: 2px solid white;
+}
+/* END Service Section*/
+
 /* Footer Section */
 .footer {
   min-height: 20vh;
@@ -641,6 +696,10 @@ body, html {
 	.explain .explain-video video {
 		border-radius: 15px;
 	}
+
+	.service-text {
+		max-width: 60%;
+	}
 }
 
 #slider {
@@ -679,6 +738,14 @@ body, html {
 
 	.explain .explain-video video {
 		border-radius: 15px;
+	}
+
+	.service-container {
+		flex-direction: row;
+	}
+
+	.service-info-heading {
+    font-size: 6rem;
 	}
 }
 /* END Media Query for Desktop ONLY */
